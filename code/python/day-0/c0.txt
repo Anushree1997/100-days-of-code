@@ -2,6 +2,46 @@ For the day zero of Python folks, here are two challenges.
 
 // Beginner Level
 1. Print Hello World
+
+print("Hello World")
+
 2. Print the table of 1 to 10 column-wise.
+
+x= int(input("enter the no \n"))
+for i in range(1,11):
+    print(i*x,"\t",end="")
+
 3. Write a program of simple calculator with sum, mul, sub, and div functions.
-af
+
+x=int (input("Enter the value of X:\n"))
+
+y=int( input("Enter the value of Y:\n"))
+print("Choose Your Option\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+choice=int(input())
+def Addition(x,y):
+    sum=x+y
+    print(sum)
+    return 
+def Subtraction(x,y):
+    sub=x-y
+    print(sub)
+    return
+def Multiplication(x,y):
+    mul=x*y
+    print(mul)
+    return
+def Division(x,y):
+    div=x/y
+    print(div)
+    return
+if(choice==1):
+    Addtion(x,y)
+if(choice==2):
+    Subtraction(x,y)
+if(choice==3):
+    Multiplication(x,y)
+if(choice==4):
+    Division(x,y)
+
+
+
